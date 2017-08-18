@@ -1,8 +1,10 @@
-<style lang="sass" scope>
+<style lang="scss" scope>
 
 </style>
 <template>
-
+<div>
+  <h1>2222</h1>
+</div>
 </template>
 
 <script>
