@@ -4,6 +4,8 @@
 <template>
 <div>
   <h1>2222</h1>
+  <div>我是一个小小鸟</div>
+  <button>首页</button>
 </div>
 </template>
 
