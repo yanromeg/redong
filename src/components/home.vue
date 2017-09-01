@@ -1,11 +1,11 @@
-<style lang="scss" scope>
+<style  scope>
 
 </style>
 <template>
 <div>
   <h1>2222</h1>
   <div>我是一个小小鸟</div>
-  <button>首页</button>
+  <router-link to="/childPage"> <button>首页</button></router-link>
 </div>
 </template>
 
