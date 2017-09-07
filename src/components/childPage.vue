@@ -4,7 +4,7 @@
 <template>
 <div>
   <p>子页面</p>
-  <router-link to="/"> <button>返回首页</button></router-link>
+  <router-link to="/home"> <button>返回首页</button></router-link>
 </div>
 </template>
 

@@ -7,7 +7,8 @@ Vue.use(Router)
 
 export default new Router({
   routes: [
-    {path: '/', name: 'home',meta:{title:'首页'}, component: home},
-    {path: '/childPage', name: 'home',meta:{title:'子页'}, component: childPage}
+    {path: '/', redirect:'/home'},
+    {path: '/home', name: 'home',meta:{title:'身边的篮球互娱社区'}, component: home},
+    {path: '/childPage', name: 'home',meta:{title:'身边的篮球互娱社区'}, component: childPage}
   ]
 })

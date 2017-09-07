@@ -50,6 +50,18 @@ module.exports = {
        loaders: ["style", "css", "sass"]
      },
       {
+        test: /\.scss$/,
+        loader: 'style!css!sass?sourceMap'
+      },
+      {
+        test: /\.jade$/,
+        loader: "jade"
+      },
+      {
+        test: /\.pug$/,
+        loader: 'pug'
+      },
+      {
         test: /\.(mp4|webm|ogg|mp3|wav|flac|aac)(\?.*)?$/,
         loader: 'url-loader',
         options: {

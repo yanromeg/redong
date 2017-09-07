@@ -1,4 +1,5 @@
 <style scope>
+
   .component-fade-enter-active, .component-fade-leave-active {
     transition: opacity .3s ease;
   }
@@ -8,7 +9,7 @@
   }
 </style>
 <template>
-  <div id="app">
+  <div id="app" >
     <transition name="component-fade" mode="out-in">
       <router-view  v-wechat-title="$route.meta.title"></router-view>
       <!--<component ></component>-->

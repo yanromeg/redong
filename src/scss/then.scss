@@ -1,11 +1,13 @@
+
 *{margin: 0;padding: 0; color: #333;font-size: 1.4rem;
   font-family: PingFang SC,Helvetica Neue,Helvetica,Arial,Hiragino Sans GB,Microsoft Yahei,\\5FAE\8F6F\96C5\9ED1,STHeiti,\\534E\6587\7EC6\9ED1,sans-serif;}
+
 
 /*布局（grid）*/
 .g-module{width: 96%;margin: 0 auto;}
 
 /*功能（function）（.f-）：为方便一些常用样式的使用，我们将这些使用率较高的样式剥离出来，按需使用，通常这些选择器具有固定样式表现，*/
-.f-font-overflow-hidden{text-overflow: ellipsis;white-space: nowrap;overflow: hidden;width: 80%;}
+.f-font-overflow-hidden{text-overflow: ellipsis;white-space: nowrap;overflow: hidden;width: 80%;margin: 0 auto;}
 /*皮肤  skin*/
 .s-white-font{color: #fff; }
 .s-font-medium{font-size: 1.6rem}
